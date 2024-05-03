@@ -9,14 +9,17 @@ Dataset
 The MNIST dataset consists of 60,000 training images and 10,000 testing images, each of size 28x28 pixels. It is widely used as a benchmark dataset for image classification tasks.
 
 **Model Architecture**
+
 The Sequential CNN model architecture used in this project is as follows:
 Input Layer: Convolutional layer with ReLU activation.
 Hidden Layers: Additional convolutional layers with ReLU activation, followed by max-pooling layers for downsampling.
 Flatten Layer: Flattens the output of the convolutional layers to feed into the fully connected layers.
 Fully Connected Layers: Dense layers with ReLU activation.
 Output Layer: Dense layer with softmax activation for multi-class classification.
+
 **Training:**
 Run the notebook for training the model on the MNIST dataset.
+
 **Inference:**
 Use the trained model to make predictions on individual images from the test split.
 **Results**
